@@ -17,7 +17,6 @@ type LockFile struct {
 	GeneratedTests       GeneratedTests               `yaml:"generatedTests,omitempty"`
 	AdditionalProperties map[string]any               `yaml:",inline"` // Captures any additional properties that are not explicitly defined for backwards/forwards compatibility
 
-
 type Management struct {
 	DocChecksum          string         `yaml:"docChecksum,omitempty"`
 	DocVersion           string         `yaml:"docVersion,omitempty"`
